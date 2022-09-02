@@ -909,19 +909,19 @@ z
   width: 100%;
   height: 100%;
   background-color: black;
-  opacity: 0.85;
+  opacity: 0.88;
   z-index: 9999;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
 }
 
 .cslogo {
   width: 100%;
   color: white;
-
+  position: relative;
+  top: 5%;
   padding: 0% 10%;
   height: 13%;
 }
@@ -933,10 +933,12 @@ z
   height: 16%;
   font-family: "Lucida Console", "Lucida Sans Typewriter", monaco,
     "Bitstream Vera Sans Mono", monospace;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
+  position: relative;
+  top: 22%;
 }
 
 .csh2 {
@@ -946,10 +948,12 @@ z
   height: 8%;
   font-family: "Lucida Console", "Lucida Sans Typewriter", monaco,
     "Bitstream Vera Sans Mono", monospace;
-  font-size: 0.6rem;
+  font-size: 0.5rem;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
+  position: relative;
+  top: 14%;
 }
 
 .cscountdown {
@@ -957,6 +961,8 @@ z
   color: white;
   padding: 0% 10%;
   height: 10%;
+  position: relative;
+  top: 11%;
 }
 
 .site {
