@@ -965,6 +965,59 @@ z
   background-color: black;
   opacity: 0.85;
   z-index: 9999;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.cslogo {
+  width: 100%;
+  color: white;
+
+  padding: 0% 10%;
+  height: 13%;
+}
+
+.csh1 {
+  width: 100%;
+  color: white;
+  text-align: center;
+
+  height: 16%;
+
+  font-family: "Lucida Console", "Lucida Sans Typewriter", monaco,
+    "Bitstream Vera Sans Mono", monospace;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+.csh2 {
+  width: 100%;
+  color: white;
+  text-align: center;
+
+  height: 8%;
+
+  font-family: "Lucida Console", "Lucida Sans Typewriter", monaco,
+    "Bitstream Vera Sans Mono", monospace;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+.cscountdown {
+  width: 100%;
+  color: white;
+
+  padding: 0% 10%;
+
+  height: 10%;
 }
 
 .site {
@@ -974,4 +1027,5 @@ z
   width: 100vh;
   height: 100vh;
   z-index: 1;
+  overflow: hidden;
 }
