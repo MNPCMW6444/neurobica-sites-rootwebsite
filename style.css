@@ -955,3 +955,23 @@ z
     grid-column: 1/-1;
   }
 }
+
+.commingSoon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vh;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.85;
+  z-index: 9999;
+}
+
+.site {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vh;
+  height: 100vh;
+  z-index: 1;
+}
